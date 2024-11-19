@@ -1,20 +1,20 @@
 /* eslint-disable */
 import "bootstrap";
 import "./style.css";
-
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
+
 window.onload = function() {
-  //write your code here
+  // Arrays
   let pronoun = ["the", "our"];
-  let adj = ["great", "big"];
+  let adjective = ["great", "big"];
   let noun = ["jogger", "racoon"];
 
   pronoun.map(itemPronoum => {
-    adj.map(itemAdj => {
+    adjective.map(itemAdjective => {
       noun.map(itemNoun => {
-        console.log(`${itemPronoum}${itemAdj}${itemNoun}.com`);
+        console.log(`${itemPronoum}${itemAdjective}${itemNoun}.com`);
       });
     });
   });
